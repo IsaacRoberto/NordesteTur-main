@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos Funcionarios</title>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <label class = "logo">Nordeste Tur</label>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./rotas.html">Rotas</a></li>
+            <li><a href="./frotas.html">Frotas</a></li>
+            <li><a href="./nossahistoria.html">Nossa historia</a></li>
+            <li><a href="./abrirchamado.html">Abrir chamado</a></li>
+            <li><a href="./novosfuncionarios.html">Contratação de funcionários</a></li> 
+        </ul>   
+    </nav>
+    <br>
+
+    <div class="container">
+        <form action="" method="post">
+            <div>
+            <div>
+                <h1>Contratação de funcinários:</h1>
+                <hr><br>
+            </div>
+                <label>
+                    NOME: <input type="text" placeholder="informe seu nome">
+                </label>
+            </div>
+            <div>
+                <label>
+                    E-MAIL: <input type="email" placeholder="Imforme seu email">
+                </label>
+            </div>
+            <div>
+                <label>
+                    TELEFONE PARA CONTATO: <input type="number" placeholder="ex.: 0000-0000">
+                </label>
+            </div>
+            <div>
+                <label>
+                    ENDEREÇO: <input type="text" placeholder="seu endereço">
+                </label>
+            </div>
+            <div>
+                <label>
+                    INFORME O CARGO QUE DESEJA OCUPAR: <br>
+                    <select name="Cargos" id="car">
+                        <option value="">Motorista</option>
+                        <option value="">Venderdor de Passagens</option>
+                        <option value="">Supervisor(a)</option>
+                        <option value="">Auxiliar administrativo</option>
+                        <option value="">Gerente</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    CURRÍCULO: <input type="file" placeholder="Currículo">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

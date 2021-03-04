@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <label class = "logo">Nordeste Tur</label>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./rotas.html">Rotas</a></li>
+            <li><a href="./frotas.html">Frotas</a></li>
+            <li><a href="./nossahistoria.html">Nossa historia</a></li>
+            <li><a href="./abrirchamado.html">Abrir chamado</a></li>
+            <li><a href="./novosfuncionarios.html">Contratação de funcionários</a></li> 
+        </ul>  
+    </nav>
+    <br>
+
+    <div>
+        <h1>Chamados:</h1>
+        <hr><br>
+    </div>
+    <div class="container">
+        <form action="" method="post" >
+            <div>
+                <label for="fname">
+                    NOME DO FUNCIONÁRIO: <input type="text" id="fname" placeholder= "Informe seu nome...">
+                </label>
+            </div>
+            <div>
+                <label for="assunto">
+                    ASSUNTO: <input type="text" id= "assunto" placeholder="informe o assunto...">
+                </label>
+            </div>
+            <div>
+                <label for="Cargos">
+                    CARGO: <br>
+                    <select name="Cargos" id="Cargos">
+                        <option value="Administrativa">Administrativa</option>
+                        <option value="Gerencial">Gerencial</option>
+                        <option value="Operacional">Operacional</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="Detalhamento">
+                    DETALHAMENTO:<textarea id="Detalhamento" name="Detalhamento" placeholder="Complete o chamado..." style="height: 200px"></textarea>
+                    <input type="submit" value="ENVIAR">
+                </label>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
